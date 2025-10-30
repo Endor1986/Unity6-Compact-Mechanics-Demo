@@ -1,0 +1,83 @@
+# ------------------------------------------------------------------
+# Unity (alle Versionen, inkl. Unity 6 / HDRP / URP)
+# ------------------------------------------------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Aa]rtifacts/
+SysInfo.txt
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+*.gradle/
+
+# Addressables / StreamingAssets Cache (falls genutzt)
+[Aa]ssets/AddressableAssetsData/*/Windows/
+[Aa]ssets/StreamingAssets/aa/
+
+# Burst / IL2CPP / Cache
+[Bb]urstDebugInformation_DoNotShip/
+.il2cpp/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Visual Studio / VS for Mac
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Crash & Profiling
+*.dmp
+*.mdmp
+*.memgraph
+*.psess
+*.vsp
+*.vspx
+
+# OS-spezifisch
+.DS_Store
+Thumbs.db
+
+# Unity Collaborate (falls mal aktiv)
+.collabignore
+
+# Plastic SCM (falls mal aktiv)
+.plastic/
+
+# Paket-Lock: wird von Unity generiert
+Packages/packages-lock.json
+
+# ---------------------------------------------------------------
+# WICHTIG: Diese Verzeichnisse/Dateien SOLLTEST du *einchecken*
+# (deshalb NICHT ignorieren) – sie definieren dein Projekt:
+# ---------------------------------------------------------------
+#  - Assets/           (inkl. *.meta)
+#  - ProjectSettings/
+#  - Packages/manifest.json
+#  - ProjectSettings/ProjectVersion.txt
+#  - User-definierte Assets wie .fbx, .png, .mat, .prefab, .anim etc.
+#
+# Hinweis: .meta-Dateien NIEMALS ignorieren!
+#          Sie sind nötig, damit Referenzen in Unity erhalten bleiben.
+#
+# Optional (Repository klein halten):
+#  - Für binäre Assets (z. B. *.fbx, *.png, *.wav) Git LFS nutzen.
+#    Beispiel (in .gitattributes):
+#      *.fbx filter=lfs diff=lfs merge=lfs -text
+#      *.png filter=lfs diff=lfs merge=lfs -text
+# ---------------------------------------------------------------
