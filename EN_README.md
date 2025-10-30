@@ -148,4 +148,3 @@ Unity6-Compact-Mechanics-Demo/
 
 **MIT License** – see `LICENSE`.  
 This project is free to use, modify, and redistribute for learning purposes.
-💾 GitHub: Endor1986
